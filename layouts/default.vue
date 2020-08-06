@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2>Web detected</h2>
     <Nuxt />
   </div>
 </template>

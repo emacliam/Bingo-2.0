@@ -7,7 +7,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+layout:({ isMobile }) => isMobile ? 'mobile' : 'default',
+}
 </script>
 
 <style>
