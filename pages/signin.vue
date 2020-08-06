@@ -6,7 +6,17 @@ bla bla
 
 <script>
 export default {
-layout:({ isMobile }) => isMobile ? 'mobile' : 'default'
+layout:({ isMobile }) => isMobile ? 'mobile' : 'default',
+data() {
+  return {
+    isMobile:Boolean
+  }
+},
+ asyncData({ isMobile }) {
+     return{
+       isMobile:isMobile
+     }
+  },
 }
 </script>
 

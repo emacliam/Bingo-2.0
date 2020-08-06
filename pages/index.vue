@@ -1,11 +1,11 @@
 <template>
 <main>
-  <template >
+  <template v-if="isMobile" >
     <div>
        wataa
     </div>
   </template>
-  <template >
+  <template v-else>
     <div>
   <div class="container flex max-w-full">
   <div class="w-7/12">
@@ -30,7 +30,17 @@ export default {
   components:{
     Grid1,
     Grid2
-  }
+  },
+  data() {
+    return {
+      isMobile:Boolean
+    }
+  },
+  asyncData({ isMobile }) {
+     return{
+       isMobile:isMobile
+     }
+  },
   }
 </script>
 

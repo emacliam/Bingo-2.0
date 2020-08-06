@@ -22,6 +22,7 @@
 
     </div>
     <div class="w-full">
+      <nuxt/>
     </div>
 </div>
   </main>
