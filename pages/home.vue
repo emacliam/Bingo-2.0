@@ -1,12 +1,15 @@
 <template>
   <main>
-bla bla
+      <h2>
+          Home
+      </h2>
   </main>
 </template>
 
 <script>
 export default {
-layout:({ isMobile }) => isMobile ? 'mobile' : 'default'
+layout:({ isMobile }) => isMobile ? 'mobile' : 'default',
+
 }
 </script>
 

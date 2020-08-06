@@ -30,12 +30,8 @@ export default {
   components:{
     Grid1,
     Grid2
-  },
-
-
-
-
-}
+  }
+  }
 </script>
 
 <style>
