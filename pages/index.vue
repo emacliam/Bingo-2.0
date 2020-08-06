@@ -1,4 +1,12 @@
 <template>
+<main>
+  <template >
+    <div>
+       wataa
+    </div>
+  </template>
+  <template >
+    <div>
   <div class="container flex max-w-full">
   <div class="w-7/12">
     <Grid1/>
@@ -9,6 +17,9 @@
   </div>
 
   </div>
+    </div>
+  </template>
+</main>
 </template>
 
 <script>
@@ -19,7 +30,10 @@ export default {
   components:{
     Grid1,
     Grid2
-  }
+  },
+
+
+
 
 }
 </script>
