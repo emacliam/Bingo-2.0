@@ -1,59 +1,35 @@
 <template>
- <main>
-   <h2>
-       My nuxt app
-   </h2>
- </main>
+  <div class="container flex max-w-full">
+  <div class="w-7/12">
+    <Grid1/>
+  </div>
+
+  <div class="bg-gray-100 w-5/12">
+     <Grid2/>
+  </div>
+
+  </div>
 </template>
 
 <script>
+import Grid1 from "~/components/Grid1";
+import Grid2 from "~/components/Grid2";
 export default {
-layout:({ isMobile }) => isMobile ? 'mobile' : 'default',
+  layout:({ isMobile }) => isMobile ? 'mobile' : 'default',
+  components:{
+    Grid1,
+    Grid2
+  }
+
 }
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+.grid1{
+width:60%;
 }
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.grid2{
+width: 40%;
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
