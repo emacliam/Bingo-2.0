@@ -36,7 +36,6 @@
         leave-to-class="opacity-0"
       >
         <div
-          @keydown.esc="isOpen = false"
           v-show="isOpen"
           class="z-10 fixed inset-0 transition-opacity"
         >
@@ -95,22 +94,9 @@ export default {
 
     }
   },
-  watch: {
-    isOpen: {
-      immediate: true,
-      handler(isOpen) {
-        if (process.client) {
-          if (isOpen) document.body.style.setProperty("overflow", "hidden");
-          else document.body.style.removeProperty("overflow");
-        }
-      },
-    },
-  },
+
   mounted() {
     this.isOpen === false;
-    document.addEventListener("keydown", (e) => {
-      if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
-    });
   },
 };
 </script>
