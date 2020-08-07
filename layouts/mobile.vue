@@ -107,6 +107,7 @@ export default {
     },
   },
   mounted() {
+    this.isOpen === false;
     document.addEventListener("keydown", (e) => {
       if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
     });
