@@ -1,6 +1,6 @@
 <template>
   <main>
-bla bla
+signup page
   </main>
 </template>
 
