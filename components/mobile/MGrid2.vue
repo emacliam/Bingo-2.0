@@ -1,5 +1,5 @@
 <template>
-<main class="">
+<main class="max-w-full m-auto">
 <!-- component -->
 <!-- post card -->
 <div class="flex text-sm card"><!--horizantil margin is just for display-->

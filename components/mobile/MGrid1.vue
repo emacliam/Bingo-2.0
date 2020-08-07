@@ -1,5 +1,5 @@
 <template>
-<main>
+<main class="max-w-full m-auto">
 <!-- component -->
 <div class=" rounded overflow-hidden border mx-4 my-2 bg-white md:mx-auto max-w-md md:max-w-2xl">
     <div class="w-full flex justify-between p-3">
