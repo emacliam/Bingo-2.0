@@ -1,7 +1,7 @@
 <template>
 <main>
 <!-- component -->
-<div class=" rounded overflow-hidden border max-w-md mx-4 my-2 bg-white">
+<div class=" rounded overflow-hidden border mx-4 my-2 bg-white md:mx-auto max-w-md md:max-w-2xl">
     <div class="w-full flex justify-between p-3">
       <div class="flex justify-between items-center w-full">
         <div class="flex">
@@ -32,7 +32,7 @@
   </div>
 
   <!-- component -->
-<div class=" rounded overflow-hidden border max-w-md mx-4 my-2 bg-white">
+<div class=" rounded overflow-hidden border mx-4 my-2 bg-white  md:mx-auto max-w-md md:max-w-2xl">
     <div class="w-full flex justify-between p-3">
       <div class="flex justify-between items-center w-full">
         <div class="flex">
@@ -58,11 +58,11 @@
           <span class="font-medium mr-2">braydoncoyer</span> Lord of the Rings
         </div>
       </div>
-      <div class="text-sm w-auto text-black cursor-pointer font-medium rounded-full p-2 border text-center m-auto border-black">View all 1 240 Reactions</div>
+      <div class="text-sm w-auto text-black cursor-pointer font-medium rounded-full p-2 border text-center m-auto border-black">View all 1 500 Reactions</div>
     </div>
   </div>
   <!-- component -->
-<div class="max-w-md pt-2 mx-4 text-center text-blue-600 m-auto">
+<div class="pt-2 mx-4 text-center text-blue-600 m-auto  md:mx-auto max-w-md md:max-w-2xl">
     <nuxt-link to="" class="border p-2  border-black rounded">
                 SEE MORE
     </nuxt-link>
