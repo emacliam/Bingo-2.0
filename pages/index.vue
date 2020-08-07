@@ -1,10 +1,10 @@
 <template>
 <main>
   <template v-if="isMobile" >
-    <div class="mb-24 ">
+    <div class="pb-12 ">
 <MGrid2/>
     </div>
-    <div class="mb-24">
+    <div class="pb-24">
 <MGrid1/>
     </div>
   </template>

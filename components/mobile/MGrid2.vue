@@ -13,7 +13,7 @@
         </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">Innscor Group</span>
             </div>
             <div>
@@ -25,7 +25,7 @@
             </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">Econet Wireless</span>
             </div>
             <div>
@@ -37,7 +37,7 @@
             </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">TechZim</span>
             </div>
             <div>
@@ -59,7 +59,7 @@
         </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">Techzim</span>
             </div>
             <div>
@@ -71,7 +71,7 @@
             </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">Zimbocash</span>
             </div>
             <div>
@@ -83,7 +83,7 @@
             </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">Bingo</span>
             </div>
             <div>
@@ -106,7 +106,7 @@
         </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">Privor</span>
             </div>
             <div>
@@ -118,7 +118,7 @@
             </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">Okay zw</span>
             </div>
             <div>
@@ -130,7 +130,7 @@
             </div>
         <div class="flex items-center m-1 justify-between">
             <div class="flex items-center">
-            <img src="" alt="" class="rounded-full w-8 h-8 bg-gray-500">
+            <img src="https://avatars0.githubusercontent.com/u/38799309?v=4" alt="" class="rounded-full w-8 h-8 bg-gray-500">
             <span class="ml-4 font-bold">Steward Bank</span>
             </div>
             <div>
