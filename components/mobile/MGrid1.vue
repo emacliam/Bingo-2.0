@@ -27,7 +27,7 @@
           <span class="font-medium mr-2">braydoncoyer</span> Lord of the Rings
         </div>
       </div>
-      <div class="text-sm w-auto text-black cursor-pointer font-medium rounded-full p-2 border text-center m-auto border-black">View all 1 240 Reactions</div>
+      <button class="text-sm w-auto text-black cursor-pointer font-medium rounded-full p-2 border text-center border-black focus:outline-none">View all 1 240 Reactions</button>
     </div>
   </div>
 
@@ -58,7 +58,7 @@
           <span class="font-medium mr-2">braydoncoyer</span> Lord of the Rings
         </div>
       </div>
-      <div class="text-sm w-auto text-black cursor-pointer font-medium rounded-full p-2 border text-center m-auto border-black">View all 1 500 Reactions</div>
+       <button class="text-sm w-auto text-black cursor-pointer font-medium rounded-full p-2 border text-center  border-black focus:outline-none">View all 1 240 Reactions</button>
     </div>
   </div>
   <!-- component -->

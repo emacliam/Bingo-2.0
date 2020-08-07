@@ -9,8 +9,7 @@
     </div>
   </template>
   <template v-else>
-    <div>
-  <div class="container flex max-w-full">
+  <div class="container flex max-w-full flex-wrap">
   <div class="w-7/12">
     <Grid1/>
   </div>
@@ -20,7 +19,6 @@
   </div>
 
   </div>
-    </div>
   </template>
 </main>
 </template>
