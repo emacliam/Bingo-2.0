@@ -1,7 +1,7 @@
 <template>
 <main>
   <template v-if="isMobile" >
-    <div>
+    <div class="sticky mb-48">
 <MGrid2/>
     </div>
     <div>
@@ -32,6 +32,7 @@ import MGrid1 from "~/components/mobile/MGrid1";
 import MGrid2 from "~/components/mobile/MGrid2";
 export default {
   layout:({ isMobile }) => isMobile ? 'mobile' : 'default',
+
   components:{
     Grid1,
     Grid2,
