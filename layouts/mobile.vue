@@ -2,16 +2,16 @@
   <main class="">
 <nav
     :class="{ 'scrolled': !view.atTopOfPage }"
-    class=" tp flex fixed w-full items-center justify-between flex-wrap px-6 h-16 bg-blue-600 text-gray-700 z-10 top-0 animated">
+    class=" tp flex fixed w-full items-center justify-between flex-wrap px-6 h-12 bg-blue-600  z-10 top-0 animated">
 
       <div class="flex items-center justify-between">
-        <div class="flex items-center">
+        <div class="flex items-center text-sm">
           <img src alt="Logo" class="h-auto w-24" />
         </div>
       </div>
       <div class="flex items-center text-white">
-        <nuxt-link to="/signin" class="m-2 hover:bg-blue-300 p-1 rounded-lg">Sign In</nuxt-link>
-        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 26 26"><path style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;block-progression:tb" d="M 13 0 C 5.826231 0 1.6e-005 5.8262 0 13 C -4.2e-005 20.1738 5.826191 26 13 26 C 20.173809 26 26.000041 20.1738 26 13 C 25.999984 5.8262 20.173769 0 13 0 z M 13 1 C 19.633359 1 24.999985 6.3666 25 13 C 25.000038 19.6334 19.633396 25 13 25 C 6.366603 25 0.999962 19.6334 1 13 C 1.000015 6.3666 6.366641 1 13 1 z M 7 7 L 7 8 L 8.5039062 8 L 10.867188 15.246094 L 9.9765625 18.367188 C 9.8924425 18.663257 10.149243 19.003576 10.457031 19.003906 L 18.457031 19.003906 L 18.457031 18.003906 L 11.119141 18.003906 L 11.6875 16.009766 L 17.830078 16 L 19.947266 10.158203 L 19.007812 9.8164062 L 18.574219 11.015625 L 10.539062 11.015625 L 9.2285156 7 L 7 7 z "  font-family="sans-serif" font-weight="400" overflow="visible"/></svg>
+        <nuxt-link to="/signin" class="m-2 hover:bg-blue-300 p-1 rounded-lg text-sm">Sign In</nuxt-link>
+        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 26 26"><path style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;block-progression:tb" d="M 13 0 C 5.826231 0 1.6e-005 5.8262 0 13 C -4.2e-005 20.1738 5.826191 26 13 26 C 20.173809 26 26.000041 20.1738 26 13 C 25.999984 5.8262 20.173769 0 13 0 z M 13 1 C 19.633359 1 24.999985 6.3666 25 13 C 25.000038 19.6334 19.633396 25 13 25 C 6.366603 25 0.999962 19.6334 1 13 C 1.000015 6.3666 6.366641 1 13 1 z M 7 7 L 7 8 L 8.5039062 8 L 10.867188 15.246094 L 9.9765625 18.367188 C 9.8924425 18.663257 10.149243 19.003576 10.457031 19.003906 L 18.457031 19.003906 L 18.457031 18.003906 L 11.119141 18.003906 L 11.6875 16.009766 L 17.830078 16 L 19.947266 10.158203 L 19.007812 9.8164062 L 18.574219 11.015625 L 10.539062 11.015625 L 9.2285156 7 L 7 7 z "  font-family="sans-serif" font-weight="400" overflow="visible"/></svg>
       </div>
 </nav>
 <div class="mt-24">
@@ -19,12 +19,12 @@
 </div>
 <nav
 :class="{ 'scrolled': !view.atTopOfPage }"
-class=" btm flex fixed w-full items-center justify-between flex-wrap px-6 h-16 bg-blue-600 text-gray-700 bottom-0 animated">
+class=" btm flex fixed w-full items-center justify-between flex-wrap px-6 h-12 text-gray-700 bottom-0 animated">
 <!-- <section id="bottom-navigation" class="md:hidden block fixed inset-x-0 bottom-0 z-10 bg-white shadow"> // if shown only tablet/mobile-->
 	<section id="bottom-navigation" class="block fixed inset-x-0 bottom-0 z-10 bg-white shadow">
 		<div id="tabs" class="flex justify-between">
-			<a href="/" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
-				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block mb-1">
+			<a href="/" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center p-1">
+				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block">
 			    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 			        <path d="M21.0847458,3.38674884 C17.8305085,7.08474576 17.8305085,10.7827427 21.0847458,14.4807396 C24.3389831,18.1787365 24.3389831,22.5701079 21.0847458,27.6548536 L21.0847458,42 L8.06779661,41.3066256 L6,38.5331279 L6,26.2681048 L6,17.2542373 L8.88135593,12.4006163 L21.0847458,2 L21.0847458,3.38674884 Z" fill="currentColor" fill-opacity="0.1"></path>
 			        <path d="M11,8 L33,8 L11,8 Z M39,17 L39,36 C39,39.3137085 36.3137085,42 33,42 L11,42 C7.6862915,42 5,39.3137085 5,36 L5,17 L7,17 L7,36 C7,38.209139 8.790861,40 11,40 L33,40 C35.209139,40 37,38.209139 37,36 L37,17 L39,17 Z" fill="currentColor"></path>
@@ -35,8 +35,8 @@ class=" btm flex fixed w-full items-center justify-between flex-wrap px-6 h-16 b
 				</svg>
 				<span class="tab tab-home block text-xs">Home</span>
 			</a>
-			<a href="#" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
-				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block mb-1">
+			<a href="#" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center p-1">
+				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block">
 			    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 		        <path d="M14.7118754,20.0876892 L8.03575361,20.0876892 C5.82661462,20.0876892 4.03575361,18.2968282 4.03575361,16.0876892 L4.03575361,12.031922 C4.03575361,8.1480343 6.79157254,4.90780265 10.4544842,4.15995321 C8.87553278,8.5612583 8.1226025,14.3600511 10.9452499,15.5413938 C13.710306,16.6986332 14.5947501,18.3118357 14.7118754,20.0876892 Z M14.2420017,23.8186831 C13.515543,27.1052019 12.7414284,30.2811559 18.0438552,31.7330419 L18.0438552,33.4450645 C18.0438552,35.6542035 16.2529942,37.4450645 14.0438552,37.4450645 L9.90612103,37.4450645 C6.14196811,37.4450645 3.09051926,34.3936157 3.09051926,30.6294627 L3.09051926,27.813861 C3.09051926,25.604722 4.88138026,23.813861 7.09051926,23.813861 L14.0438552,23.813861 C14.1102948,23.813861 14.1763561,23.8154808 14.2420017,23.8186831 Z M20.7553776,32.160536 C23.9336213,32.1190063 23.9061943,29.4103976 33.8698747,31.1666916 C34.7935223,31.3295026 35.9925894,31.0627305 37.3154077,30.4407183 C37.09778,34.8980343 33.4149547,38.4450645 28.9036761,38.4450645 C24.9909035,38.4450645 21.701346,35.7767637 20.7553776,32.160536 Z" fill="currentColor" opacity="0.1"></path>
 		        <g transform="translate(2.000000, 3.000000)">
@@ -50,8 +50,8 @@ class=" btm flex fixed w-full items-center justify-between flex-wrap px-6 h-16 b
 				</svg>
 				<span class="tab tab-kategori block text-xs">Category</span>
 			</a>
-			<a href="#" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
-				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block mb-1">
+			<a href="#" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center p-1">
+				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block">
 			    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 		        	<path d="M20.5890101,0.254646884 C12.8696785,5.50211755 8.0025785,14.258415 14.1941217,18.8708225 C23.16683,25.5550669 13.3362326,40.2698884 33.1021758,38.4149164 C29.6814884,40.8311956 25.5065164,42.2507054 21,42.2507054 C9.40202025,42.2507054 0,32.8486852 0,21.2507054 C0,9.79003409 9.18071714,0.473634138 20.5890101,0.254646884 Z" fill="currentColor" opacity="0.1"></path>
 		        	<path d="M25.9500282,20.3643496 L22.4308312,38.2677802 C22.3775703,38.5387376 22.1147395,38.7152155 21.8437821,38.6619546 C21.6570955,38.6252584 21.507413,38.4857901 21.4576354,38.3021581 L16.5951895,20.3643496 L20.099732,4.44663907 C20.1385204,4.27046145 20.2692032,4.12883813 20.4417012,4.07604096 C20.7057521,3.99522179 20.9853245,4.14376046 21.0661436,4.40781135 L25.9500282,20.3643496 Z M21.3022963,22.2852638 C22.4068658,22.2852638 23.3022963,21.3898333 23.3022963,20.2852638 C23.3022963,19.1806943 22.4068658,18.2852638 21.3022963,18.2852638 C20.1977268,18.2852638 19.3022963,19.1806943 19.3022963,20.2852638 C19.3022963,21.3898333 20.1977268,22.2852638 21.3022963,22.2852638 Z" fill="currentColor" transform="translate(21.272609, 20.629524) rotate(-315.000000) translate(-21.272609, -20.629524) "></path>
@@ -60,8 +60,8 @@ class=" btm flex fixed w-full items-center justify-between flex-wrap px-6 h-16 b
 					</svg>
 				<span class="tab tab-explore block text-xs">Explore</span>
 			</a>
-			<a href="#" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
-				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block mb-1">
+			<a href="#" class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center p-1">
+				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block">
 			    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 		        <path d="M14.7118754,20.0876892 L8.03575361,20.0876892 C5.82661462,20.0876892 4.03575361,18.2968282 4.03575361,16.0876892 L4.03575361,12.031922 C4.03575361,8.1480343 6.79157254,4.90780265 10.4544842,4.15995321 C8.87553278,8.5612583 8.1226025,14.3600511 10.9452499,15.5413938 C13.710306,16.6986332 14.5947501,18.3118357 14.7118754,20.0876892 Z M14.2420017,23.8186831 C13.515543,27.1052019 12.7414284,30.2811559 18.0438552,31.7330419 L18.0438552,33.4450645 C18.0438552,35.6542035 16.2529942,37.4450645 14.0438552,37.4450645 L9.90612103,37.4450645 C6.14196811,37.4450645 3.09051926,34.3936157 3.09051926,30.6294627 L3.09051926,27.813861 C3.09051926,25.604722 4.88138026,23.813861 7.09051926,23.813861 L14.0438552,23.813861 C14.1102948,23.813861 14.1763561,23.8154808 14.2420017,23.8186831 Z M20.7553776,32.160536 C23.9336213,32.1190063 23.9061943,29.4103976 33.8698747,31.1666916 C34.7935223,31.3295026 35.9925894,31.0627305 37.3154077,30.4407183 C37.09778,34.8980343 33.4149547,38.4450645 28.9036761,38.4450645 C24.9909035,38.4450645 21.701346,35.7767637 20.7553776,32.160536 Z" fill="currentColor" opacity="0.1"></path>
 		        <g transform="translate(2.000000, 3.000000)">
@@ -75,8 +75,8 @@ class=" btm flex fixed w-full items-center justify-between flex-wrap px-6 h-16 b
 				</svg>
 				<span class="tab tab-whishlist block text-xs">Whishlist</span>
 			</a>
-			<a href=# class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1">
-				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block mb-1">
+			<a href=# class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center p-1">
+				<svg width="25" height="25" viewBox="0 0 42 42" class="inline-block">
 			    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 		        <path d="M14.7118754,20.0876892 L8.03575361,20.0876892 C5.82661462,20.0876892 4.03575361,18.2968282 4.03575361,16.0876892 L4.03575361,12.031922 C4.03575361,8.1480343 6.79157254,4.90780265 10.4544842,4.15995321 C8.87553278,8.5612583 8.1226025,14.3600511 10.9452499,15.5413938 C13.710306,16.6986332 14.5947501,18.3118357 14.7118754,20.0876892 Z M14.2420017,23.8186831 C13.515543,27.1052019 12.7414284,30.2811559 18.0438552,31.7330419 L18.0438552,33.4450645 C18.0438552,35.6542035 16.2529942,37.4450645 14.0438552,37.4450645 L9.90612103,37.4450645 C6.14196811,37.4450645 3.09051926,34.3936157 3.09051926,30.6294627 L3.09051926,27.813861 C3.09051926,25.604722 4.88138026,23.813861 7.09051926,23.813861 L14.0438552,23.813861 C14.1102948,23.813861 14.1763561,23.8154808 14.2420017,23.8186831 Z M20.7553776,32.160536 C23.9336213,32.1190063 23.9061943,29.4103976 33.8698747,31.1666916 C34.7935223,31.3295026 35.9925894,31.0627305 37.3154077,30.4407183 C37.09778,34.8980343 33.4149547,38.4450645 28.9036761,38.4450645 C24.9909035,38.4450645 21.701346,35.7767637 20.7553776,32.160536 Z" fill="currentColor" opacity="0.1"></path>
 		        <g transform="translate(2.000000, 3.000000)">

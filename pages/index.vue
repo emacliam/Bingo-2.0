@@ -1,11 +1,11 @@
 <template>
 <main>
   <template v-if="isMobile" >
-    <div class="sticky mb-48">
+    <div class="mb-24 ">
 <MGrid2/>
     </div>
-    <div>
-
+    <div class="mb-24">
+<MGrid1/>
     </div>
   </template>
   <template v-else>

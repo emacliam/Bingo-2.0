@@ -4,7 +4,10 @@
 <!-- post card -->
 <div class="flex text-sm card"><!--horizantil margin is just for display-->
   <div class="bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl px-4 flex-1 py-2">
-        <span class="font-bold">Recommended by Bingo:</span>
+        <div class="flex justify-between">
+            <span class="font-bold">Recommended by Bingo:</span>
+         <nuxt-link to="" class="text-sm text-blue-600">SEE MORE</nuxt-link>
+        </div>
           <div class="my-2">
             <hr>
         </div>
@@ -47,7 +50,10 @@
 
 <div class="flex mt-2 text-sm card">
     <div class="bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl px-4 flex-1 py-2">
-        <span class="font-bold">Trending:</span>
+         <div class="flex justify-between">
+         <span class="font-bold">Trending:</span>
+         <nuxt-link to="" class="text-sm text-blue-600">SEE MORE</nuxt-link>
+        </div>
           <div class="my-2">
             <hr>
         </div>
@@ -90,7 +96,11 @@
 
  <div class="flex mt-2 text-sm card">
     <div class="bg-white shadow-lg rounded-lg mx-4 md:mx-auto max-w-md md:max-w-2xl px-4 flex-1 py-2">
-        <span class="font-bold">Suggested for you:</span>
+        <div class="flex justify-between">
+         <span class="font-bold">Suggested for you:</span>
+         <nuxt-link to="" class="text-sm text-blue-600">SEE MORE</nuxt-link>
+        </div>
+
         <div class="my-2">
             <hr>
         </div>
