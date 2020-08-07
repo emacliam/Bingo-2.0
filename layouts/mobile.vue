@@ -115,10 +115,10 @@ export default {
 </script>
 <style scoped>
 nav{
-  height: 10vh;
+  height: 15%;
 }
 .btm{
-  height: 90vh;
+  height: 85%;
 }
 
 </style>
