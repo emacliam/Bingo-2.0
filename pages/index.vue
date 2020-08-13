@@ -9,14 +9,14 @@
     </div>
   </template>
   <template v-else>
-  <div class="container flex max-w-full flex-wrap">
-  <div class="w-7/12">
-    <Grid1/>
-  </div>
+  <div class="container max-w-full flex max-h-full">
+    <div class="max-h-full flex-1 max-w-4xl">
+      <Grid1/>
 
-  <div class="bg-gray-100 w-5/12">
-     <Grid2/>
-  </div>
+    </div>
+    <div class="h-full max-w-lg">
+    <Grid2/>
+    </div>
 
   </div>
   </template>
@@ -51,11 +51,35 @@ export default {
 </script>
 
 <style>
-.grid1{
-width:60%;
+.example{
+    overflow-y: scroll;
 }
-.grid2{
-width: 40%;
+/* The emerging W3C standard
+   that is currently Firefox-only */
+.example{
+  scrollbar-width: thin;
+  scrollbar-color:transparent transparent;
+}
+
+.example:hover{
+scrollbar-color:rgb(10, 61, 155) transparent;
+}
+/* Works on Chrome/Edge/Safari */
+.example::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 40px;
+}
+.example::-webkit-scrollbar-track {
+  background:transparent;
+}
+.example::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  border: 4px solid transparent;
+  height: 4px;
+}
+.example:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(162, 182, 247);
 }
 
 </style>
