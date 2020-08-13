@@ -11,7 +11,7 @@
         </svg>
       </button>
     </div>
-      <div class="absolute ml-56 w-5/12">
+      <div class="absolute ml-56 w-5/12 ">
           <input title="Search Bar" aria-label="search bar" role="search" class="pr-8 pl-4 py-2 border-blue-600 border rounded-md cursor-pointer focus:border-blue-600 focus:cursor-text w-full placeholder-transparent focus:placeholder-blue-500" type="text" placeholder="Search" />
           <i class="pointer-events-none absolute top-0 right-0 h-full flex items-center pr-3">
             <svg class="fill-current w-4 h-4 mx-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -19,7 +19,7 @@
             </svg>
           </i>
         </div>
-    <div :class="{'flex-col': open, 'hidden': !open}" class="flex md:hidden ">
+    <div :class="{'flex-col': open, 'hidden': !open}" class="flex md:hidden relative bg-white z-50 rounded-b-lg">
        <a class="px-4 py-2 mt-2 text-sm font-semibold m-auto" href="#">Cart</a>
        <div class="mx-24">
          <hr>
@@ -36,10 +36,7 @@
        <div class="mx-24">
          <hr>
        </div>
-       <a class="px-4 py-2 mt-2 text-sm font-semibold m-auto" href="#">Logout</a>
-       <div class="">
-         <hr>
-       </div>
+       <a class="px-4 py-2 mt-2 text-sm font-semibold m-auto bg-blue-700 rounded-lg mb-2 text-white" href="#">Sign In</a>
     </div>
 
   <nav class="flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row hidden">
@@ -64,7 +61,7 @@
   </div>
       </div>
       <div class="flex container max-w-full">
-  <div class="h-full fixed w-20 bg-white box-border rounded-tr-md sidebar">
+  <div class="h-full fixed w-20 bg-white box-border rounded-tr-md sidebar hidden md:block">
 
 		<ul>
 			<div class="hover:bg-gray-100 rounded-tr-lg sidesvg">
@@ -175,7 +172,7 @@
 
 		</ul>
    </div>
-   <div class="max-h-full ml-24 flex-1 max-w-full mr-4">
+   <div class="max-h-full md:ml-24 flex-1 max-w-full mr-4 ml-0">
    <nuxt/>
    </div>
       </div>

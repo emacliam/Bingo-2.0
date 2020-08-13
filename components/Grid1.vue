@@ -1,6 +1,6 @@
 <template>
 <main class="p-2 max-w-full flex flex-col max-h-full example">
-    <div class="bg-white rounded-lg z-40 m-3" v-for="i in 10" :key="i">
+    <div class="bg-white rounded-lg m-3" v-for="i in 10" :key="i">
  <div class="mx-4 my-2 flex justify-between">
    <div class="flex">
      <img src="https://3.bp.blogspot.com/-Chu20FDi9Ek/WoOD-ehQ29I/AAAAAAAAK7U/mc4CAiTYOY8VzOFzBKdR52aLRiyjqu0MwCLcBGAs/s1600/DSC04596%2B%25282%2529.JPG" alt="" class="w-8 h-8 rounded-full m-2">
