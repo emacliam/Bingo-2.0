@@ -50,10 +50,8 @@
         </button>
         <div v-show="drop" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
           <div class="px-2 py-2 bg-white rounded-md shadow dark-mode:bg-gray-800">
-            <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Wishlist</a>
             <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Account</a>
-            <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Settings</a>
-            <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Logout</a>
+            <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Sign In</a>
           </div>
         </div>
       </div>
@@ -109,6 +107,20 @@
 
 				</a>
 			</div>
+
+
+<div class="hover:bg-gray-100 sidesvg">
+				<a
+					href="."
+					class="h-16 px-6 flex  justify-center items-center w-full
+					focus:text-orange-500">
+				<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32" viewBox="0 0 32 32"><path d="M14 13.958c0 .276.224.5.5.5h5c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-5C14.224 13.458 14 13.682 14 13.958zM19.5 15.458h-5c-.276 0-.5.224-.5.5s.224.5.5.5h5c.276 0 .5-.224.5-.5S19.776 15.458 19.5 15.458zM19.5 17.458h-5c-.276 0-.5.224-.5.5s.224.5.5.5h5c.276 0 .5-.224.5-.5S19.776 17.458 19.5 17.458zM19.5 19.458h-5c-.276 0-.5.224-.5.5s.224.5.5.5h5c.276 0 .5-.224.5-.5S19.776 19.458 19.5 19.458zM19.5 21.458h-5c-.276 0-.5.224-.5.5s.224.5.5.5h5c.276 0 .5-.224.5-.5S19.776 21.458 19.5 21.458zM12.1 14.31c.05.05.101.09.16.11.06.02.13.04.19.04.069 0 .13-.021.189-.04.061-.021.12-.061.17-.11.04-.05.08-.1.11-.16.02-.06.03-.13.03-.189 0-.07-.011-.13-.04-.19-.021-.06-.061-.12-.101-.17-.05-.04-.1-.08-.17-.1-.18-.08-.41-.04-.54.1-.09.101-.149.22-.149.36 0 .06.02.13.04.189C12.02 14.21 12.05 14.26 12.1 14.31zM12.1 16.31c.09.101.22.15.351.15.069 0 .13-.01.189-.04.061-.021.12-.061.17-.11.04-.05.08-.1.11-.16.02-.06.03-.13.03-.189 0-.07-.011-.13-.04-.19-.021-.06-.061-.12-.101-.17-.189-.18-.529-.18-.71 0-.09.101-.149.22-.149.36 0 .06.02.13.04.189C12.02 16.21 12.05 16.26 12.1 16.31zM12.45 18.46c.069 0 .13-.021.189-.04.061-.021.12-.061.17-.11.09-.09.141-.22.141-.35s-.051-.26-.141-.36c-.189-.18-.52-.18-.71 0-.09.101-.149.22-.149.36 0 .13.05.26.149.35C12.189 18.41 12.319 18.46 12.45 18.46zM12.45 20.46c.069 0 .13-.021.189-.04.061-.021.12-.061.17-.11.09-.09.141-.22.141-.35s-.051-.26-.141-.36c-.189-.18-.52-.18-.71 0-.05.05-.08.101-.109.17-.021.061-.04.12-.04.19 0 .13.05.26.149.35C12.189 20.41 12.319 20.46 12.45 20.46zM12.45 22.46c.069 0 .13-.021.189-.04.061-.021.12-.061.17-.11.09-.09.141-.22.141-.35s-.051-.26-.141-.36c-.189-.18-.52-.18-.71 0-.05.05-.08.101-.109.17-.021.061-.04.12-.04.19 0 .13.05.26.149.35C12.189 22.41 12.319 22.46 12.45 22.46z"/><path d="M22.5,3.542h-13c-0.276,0-0.5,0.224-0.5,0.5v23.916c0,0.171,0.087,0.329,0.23,0.421c0.145,0.093,0.323,0.103,0.479,0.033   L16,25.509l6.29,2.903c0.067,0.03,0.139,0.046,0.21,0.046c0.094,0,0.188-0.026,0.27-0.079c0.144-0.092,0.23-0.25,0.23-0.421V4.042   C23,3.766,22.776,3.542,22.5,3.542z M22,27.177l-5.79-2.673c-0.067-0.03-0.139-0.046-0.21-0.046s-0.143,0.016-0.21,0.046L10,27.177   V4.542h12V27.177z"/><path d="M14.148,9.324l-0.267,1.549c-0.032,0.188,0.045,0.378,0.199,0.489c0.153,0.111,0.356,0.128,0.526,0.038L16,10.669   l1.393,0.731c0.073,0.039,0.153,0.058,0.232,0.058c0.104,0,0.207-0.032,0.294-0.096c0.154-0.111,0.231-0.302,0.199-0.489   l-0.267-1.549l1.126-1.098c0.137-0.133,0.186-0.332,0.127-0.513c-0.059-0.182-0.216-0.313-0.403-0.341l-1.557-0.226l-0.696-1.411   c-0.168-0.34-0.729-0.34-0.896,0l-0.696,1.411l-1.557,0.226c-0.188,0.027-0.345,0.159-0.403,0.341   c-0.059,0.181-0.01,0.38,0.127,0.513L14.148,9.324z M15.26,8.1c0.162-0.024,0.304-0.126,0.376-0.273L16,7.088l0.364,0.738   c0.072,0.147,0.214,0.249,0.376,0.273l0.814,0.118l-0.589,0.573c-0.118,0.115-0.172,0.281-0.145,0.443l0.14,0.81l-0.729-0.382   C16.16,9.624,16.08,9.604,16,9.604s-0.16,0.02-0.232,0.058l-0.729,0.382l0.14-0.81c0.027-0.162-0.026-0.328-0.145-0.443   l-0.589-0.573L15.26,8.1z"/></svg>
+
+				</a>
+			</div>
+
+
+
 
 			<div class="hover:bg-gray-100 sidesvg">
 				<a
