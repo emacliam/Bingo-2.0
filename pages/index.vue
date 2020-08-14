@@ -9,12 +9,14 @@
     </div>
   </template>
   <template v-else>
-  <div class="container max-w-full flex max-h-full">
-    <div class="max-h-full flex-1 max-w-4xl">
+  <div class="container max-w-full flex justify-between max-h-full">
+    <div class="max-h-full flex-1 max-w-4xl example">
+      <div class="rounded-lg max-w-2xl h-64 m-auto relative">
+       <Slider/>
+      </div>
       <Grid1/>
-
     </div>
-    <div class="h-full max-w-lg">
+    <div class="mr-4 w-64">
     <Grid2/>
     </div>
 
@@ -28,6 +30,7 @@ import Grid1 from "~/components/Grid1";
 import Grid2 from "~/components/Grid2";
 import MGrid1 from "~/components/mobile/MGrid1";
 import MGrid2 from "~/components/mobile/MGrid2";
+import Slider from "~/components/Slider";
 export default {
   layout:({ isMobile }) => isMobile ? 'mobile' : 'default',
 
@@ -36,6 +39,7 @@ export default {
     Grid2,
     MGrid1,
     MGrid2,
+    Slider
   },
   data() {
     return {

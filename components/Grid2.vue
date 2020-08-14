@@ -1,10 +1,13 @@
 <template>
-<main class="pt-2 pl-4 max-h-full max-w-full">
+<main class="max-h-full max-w-full">
 <!-- component -->
 <!-- post card -->
-<div class="flex text-sm card"><!--horizantil margin is just for display-->
-  <div class="mx-4 md:mx-auto max-w-md md:max-w-4xl px-4 flex-1 py-2 element">
-        <span class="font-bold">Recommended by Bingo:</span>
+<div class="text-sm card"><!--horizantil margin is just for display-->
+  <div class="md:mx-auto max-w-4xl md:max-w-4xl px-2 py-1 element">
+      <div class="flex items-center justify-between">
+          <span class="font-bold">Recommended by Bingo:</span>
+          <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Chevron_small_right" x="0px" y="0px" viewBox="0 0 20 20" xml:space="preserve"><path d="M11 10L7.859 6.58a.695.695 0 0 1 0-.978.68.68 0 0 1 .969 0l3.83 3.908a.697.697 0 0 1 0 .979l-3.83 3.908a.68.68 0 0 1-.969 0 .695.695 0 0 1 0-.978L11 10z"/><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="chevron,small,right" dc:description="chevron,small,right" dc:publisher="Iconscout" dc:date="2017-09-14" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Daniel Bruce</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>
+      </div>
           <div class="my-2">
             <hr>
         </div>
@@ -42,9 +45,6 @@
             </div>
         </div>
     </div>
-    <nuxt-link to="" class="flex flex-col justify-end text-gray-700 ml-8 w-20 hover:text-blue-500 link">
-<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 174.079 174.08"><path d="M96.746,87.68,75.876,64.956a4.638,4.638,0,0,1,0-6.511,4.539,4.539,0,0,1,6.437,0L107.762,84.41a4.624,4.624,0,0,1,0,6.5L82.313,116.874a4.513,4.513,0,0,1-6.437,0,4.624,4.624,0,0,1,0-6.5l20.87-22.7ZM87.68.64A87.04,87.04,0,1,1,.64,87.68,87.04,87.04,0,0,1,87.68.64Zm0,162.78a75.74,75.74,0,1,0-75.74-75.74A75.743,75.743,0,0,0,87.68,163.42Z" transform="translate(-.64 -.64)"/></svg>
-    </nuxt-link>
    </div>
 
 
@@ -52,7 +52,10 @@
 
 <div class="flex mt-2 text-sm card">
     <div class="mx-4 md:mx-auto max-w-md md:max-w-2xl px-4 flex-1 py-2 element">
-        <span class="font-bold">Trending:</span>
+         <div class="flex items-center justify-between">
+          <span class="font-bold">Trending:</span>
+          <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Chevron_small_right" x="0px" y="0px" viewBox="0 0 20 20" xml:space="preserve"><path d="M11 10L7.859 6.58a.695.695 0 0 1 0-.978.68.68 0 0 1 .969 0l3.83 3.908a.697.697 0 0 1 0 .979l-3.83 3.908a.68.68 0 0 1-.969 0 .695.695 0 0 1 0-.978L11 10z"/><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="chevron,small,right" dc:description="chevron,small,right" dc:publisher="Iconscout" dc:date="2017-09-14" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Daniel Bruce</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>
+      </div>
           <div class="my-2">
             <hr>
         </div>
@@ -90,17 +93,17 @@
             </div>
         </div>
     </div>
-    <nuxt-link to="" class="flex flex-col justify-end text-gray-700 ml-8 w-20 hover:text-blue-500 link">
-<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 174.079 174.08"><path d="M96.746,87.68,75.876,64.956a4.638,4.638,0,0,1,0-6.511,4.539,4.539,0,0,1,6.437,0L107.762,84.41a4.624,4.624,0,0,1,0,6.5L82.313,116.874a4.513,4.513,0,0,1-6.437,0,4.624,4.624,0,0,1,0-6.5l20.87-22.7ZM87.68.64A87.04,87.04,0,1,1,.64,87.68,87.04,87.04,0,0,1,87.68.64Zm0,162.78a75.74,75.74,0,1,0-75.74-75.74A75.743,75.743,0,0,0,87.68,163.42Z" transform="translate(-.64 -.64)"/></svg>
-    </nuxt-link>
   </div>
 
 
 
 
  <div class="flex mt-2 text-sm card">
-    <div class="mx-4 md:mx-auto max-w-md md:max-w-2xl px-4 flex-1 py-2 element">
-        <span class="font-bold">Suggested for you:</span>
+    <div class="mx-4 md:mx-auto max-w-4xl md:max-w-4xl px-4 flex-1 py-2 element">
+          <div class="flex items-center justify-between">
+          <span class="font-bold">Suggested for you:</span>
+          <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Chevron_small_right" x="0px" y="0px" viewBox="0 0 20 20" xml:space="preserve"><path d="M11 10L7.859 6.58a.695.695 0 0 1 0-.978.68.68 0 0 1 .969 0l3.83 3.908a.697.697 0 0 1 0 .979l-3.83 3.908a.68.68 0 0 1-.969 0 .695.695 0 0 1 0-.978L11 10z"/><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="chevron,small,right" dc:description="chevron,small,right" dc:publisher="Iconscout" dc:date="2017-09-14" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Daniel Bruce</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>
+      </div>
         <div class="my-2">
             <hr>
         </div>
@@ -138,9 +141,6 @@
             </div>
         </div>
     </div>
-    <nuxt-link to="" class="flex flex-col justify-end text-gray-700 ml-8 w-20 hover:text-blue-500 link">
-<svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 174.079 174.08"><path d="M96.746,87.68,75.876,64.956a4.638,4.638,0,0,1,0-6.511,4.539,4.539,0,0,1,6.437,0L107.762,84.41a4.624,4.624,0,0,1,0,6.5L82.313,116.874a4.513,4.513,0,0,1-6.437,0,4.624,4.624,0,0,1,0-6.5l20.87-22.7ZM87.68.64A87.04,87.04,0,1,1,.64,87.68,87.04,87.04,0,0,1,87.68.64Zm0,162.78a75.74,75.74,0,1,0-75.74-75.74A75.743,75.743,0,0,0,87.68,163.42Z" transform="translate(-.64 -.64)"/></svg>
-    </nuxt-link>
   </div>
 </main>
 </template>
@@ -153,9 +153,6 @@ export default {
 
 /* note:dont scope the css */
 <style>
-.card{
-    width:99%;
-}
 .element {
   box-shadow:
     12px 12px 16px 0 rgba(51, 48, 48, 0.25);

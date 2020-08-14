@@ -1,5 +1,5 @@
 <template>
-<main class="p-2 max-w-full flex flex-col max-h-full example">
+<main class="p-2 max-w-xl m-auto flex flex-col max-h-full">
     <div class="bg-white rounded-lg m-3" v-for="i in 10" :key="i">
  <div class="mx-4 my-2 flex justify-between">
    <div class="flex">
