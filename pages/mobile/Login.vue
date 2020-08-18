@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col w-full max-w-screen-sm px-8 md:max-w-lg md:mx-auto md:p-4  bg-white shadow-lg mt-24 rounded-lg h-full" >
+  <main class="flex flex-col w-full max-w-screen-sm md:max-w-lg md:mx-auto md:p-4  bg-white shadow-lg mt-24 rounded-lg h-full" >
       <div class="text-center font-bold text-lg">
           <span>Login</span>
       </div>

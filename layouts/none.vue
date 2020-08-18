@@ -3,7 +3,7 @@
       <div class="nav bg-blue-800 max-w-full mb-3">
        <div class="flex flex-col px-4 md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 bg-blue-700 h-16 max-w-full">
     <div class="p-4 flex flex-row items-center justify-between">
-      <a href="#" class="text-white text-xl font-bold">BINGO</a>
+      <a href="/" class="text-white text-xl font-bold">BINGO</a>
       <button class="md:hidden rounded-lg focus:outline-none" @click="open = !open">
         <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
           <path v-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>

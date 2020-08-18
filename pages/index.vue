@@ -16,7 +16,7 @@
       </div>
       <Grid1/>
     </div>
-    <div class="mr-4 w-64">
+    <div class="mr-4 w-64 ">
     <Grid2/>
     </div>
 

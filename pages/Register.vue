@@ -1,5 +1,11 @@
 <template>
-  <main class="flex flex-col w-full max-w-sm mx-auto p-4 border border-gray-200 bg-white shadow-lg my-8 rounded-lg">
+<main>
+    <div class="max-w-full">
+<div class="text-sm m-auto">
+    By clicking "Register" you agree to Bingo.com <span class="text-blue-600 hover:underline">Term's and Conditions</span>
+</div>
+    </div>
+      <main class="flex flex-col w-full max-w-sm mx-auto p-4 border border-gray-200 bg-white shadow-lg my-8 rounded-lg">
         <div class="text-center font-bold text-lg">
           <span>Register</span>
       </div>
@@ -209,7 +215,12 @@
 <div class="rounded-sm px-4 flex items-center justify-center w-48 h-8 mx-auto mt-6 bg-blue-700 hover:bg-blue-500 cursor-pointer transform duration-300 ease-in-out">
    <span class="text-white">Register</span>
 </div>
+<div class="m-auto mt-4 text-sm mb-6">
+    Already Have a Bingo Account? <nuxt-link to="/Register" class="text-blue-600 hover:underline">Sign In</nuxt-link>
+</div>
   </main>
+</main>
+
 </template>
 
 <script>

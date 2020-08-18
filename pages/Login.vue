@@ -58,6 +58,9 @@
 <div class="rounded-sm px-4 flex items-center justify-center w-48 h-8 mx-auto mt-6 bg-blue-700 hover:bg-blue-500 cursor-pointer transform duration-300 ease-in-out">
    <span class="text-white">Login</span>
 </div>
+<div class="m-auto mt-4 text-sm mb-6">
+    New To Bingo? <nuxt-link to="/Register" class="text-blue-600 hover:underline">Create an account</nuxt-link>
+</div>
   </main>
 </template>
 
