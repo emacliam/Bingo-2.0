@@ -4,7 +4,7 @@
           <div class="fade_rule"></div>
           <div class="flex items-center mt-4 justify-between">
               <span class="font-bold text-gray-700 text-sm">Recommanded By Bingo:</span>
-              <nuxt-link to="" class="text-blue-600 text-md">See All</nuxt-link>
+              <nuxt-link to="/Recommanded" class="text-blue-600 text-md">See All</nuxt-link>
           </div>
           <div v-for="i in 4" :key="i">
             <nuxt-link to="" class="flex items-center mx-1 mt-3 justify-between hover:bg-gray-400 rounded-lg p-2">
@@ -20,7 +20,7 @@
          <div class="fade_rule"></div>
           <div class="flex items-center mt-4 justify-between">
               <span class="font-bold text-gray-700 text-sm">Trending Bingo:</span>
-              <nuxt-link to="" class="text-blue-600 text-md">See All</nuxt-link>
+              <nuxt-link to="/Trending" class="text-blue-600 text-md">See All</nuxt-link>
           </div>
           <div v-for="i in 4" :key="i">
             <nuxt-link to="" class="flex items-center mx-1 mt-3 justify-between hover:bg-gray-400 rounded-lg p-2">
@@ -36,7 +36,7 @@
           <div class="fade_rule"></div>
           <div class="flex items-center mt-4 justify-between">
               <span class="font-bold text-gray-700 text-sm">Suggested For You:</span>
-              <nuxt-link to="" class="text-blue-600 text-md">See All</nuxt-link>
+              <nuxt-link to="/Suggested" class="text-blue-600 text-md">See All</nuxt-link>
           </div>
           <div v-for="i in 4" :key="i">
             <nuxt-link to="" class="flex items-center mx-1 mt-3 justify-between hover:bg-gray-400 rounded-lg p-2">
