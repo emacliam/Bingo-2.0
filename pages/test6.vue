@@ -1,89 +1,161 @@
 <template>
-  <!-- component -->
-  <nav class="bg-white shadow">
-    <div
-      class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center"
-    >
-      <div class="flex justify-between items-center">
-        <div>
-          <a
-            class="text-gray-800 text-xl font-bold md:text-2xl hover:text-gray-700"
-            href="#"
-            >Brand</a
-          >
-        </div>
-
-        <!-- Mobile menu button -->
-        <div class="flex md:hidden">
-          <button
-            type="button"
-            class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"
-            aria-label="toggle menu"
-          >
-            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-              <path
-                fill-rule="evenodd"
-                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-              ></path>
-            </svg>
-          </button>
+  <div class="w-full md:w-3/5 mx-auto p-8">
+    <p>Accordion</p>
+    <div class="shadow-md">
+      <div class="tab w-full overflow-hidden border-t">
+        <input
+          class="absolute opacity-0"
+          id="tab-single-one"
+          type="radio"
+          name="tabs2"
+        />
+        <label
+          class="block p-5 leading-normal cursor-pointer"
+          for="tab-single-one"
+          >Label One</label
+        >
+        <div
+          class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal"
+        >
+          <p class="p-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+            architecto, explicabo perferendis nostrum, maxime impedit atque odit
+            sunt pariatur illo obcaecati soluta molestias iure facere dolorum
+            adipisci eum? Saepe, itaque.
+          </p>
         </div>
       </div>
-
-      <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-      <div class="md:flex items-center">
-        <div class="flex flex-col md:flex-row md:mx-6">
-          <a
-            class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0"
-            href="#"
-            >Home</a
-          >
-          <a
-            class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0"
-            href="#"
-            >Shop</a
-          >
-          <a
-            class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0"
-            href="#"
-            >Contact</a
-          >
-          <a
-            class="my-1 text-sm text-gray-700 font-medium hover:text-indigo-500 md:mx-4 md:my-0"
-            href="#"
-            >About</a
-          >
+      <div class="tab w-full overflow-hidden border-t">
+        <input
+          class="absolute opacity-0"
+          id="tab-single-two"
+          type="radio"
+          name="tabs2"
+        />
+        <label
+          class="block p-5 leading-normal cursor-pointer"
+          for="tab-single-two"
+          >Label Two</label
+        >
+        <div
+          class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal"
+        >
+          <p class="p-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+            architecto, explicabo perferendis nostrum, maxime impedit atque odit
+            sunt pariatur illo obcaecati soluta molestias iure facere dolorum
+            adipisci eum? Saepe, itaque.
+          </p>
         </div>
-
-        <div class="flex justify-center md:block">
-          <a class="relative text-gray-700 hover:text-gray-600" href="#">
-            <svg
-              class="h-5 w-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3 3H5L5.4 5M7 13H17L21 5H5.4M7 13L5.4 5M7 13L4.70711 15.2929C4.07714 15.9229 4.52331 17 5.41421 17H17M17 17C15.8954 17 15 17.8954 15 19C15 20.1046 15.8954 21 17 21C18.1046 21 19 20.1046 19 19C19 17.8954 18.1046 17 17 17ZM9 19C9 20.1046 8.10457 21 7 21C5.89543 21 5 20.1046 5 19C5 17.8954 5.89543 17 7 17C8.10457 17 9 17.8954 9 19Z"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-
-            <span
-              class="absolute top-0 left-0 rounded-full bg-indigo-500 text-white p-1 text-xs"
-            ></span>
-          </a>
+      </div>
+      <div class="tab w-full overflow-hidden border-t">
+        <input
+          class="absolute opacity-0"
+          id="tab-single-three"
+          type="radio"
+          name="tabs2"
+        />
+        <label
+          class="block p-5 leading-normal cursor-pointer"
+          for="tab-single-three"
+          >Label Three</label
+        >
+        <div
+          class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal"
+        >
+          <p class="p-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+            architecto, explicabo perferendis nostrum, maxime impedit atque odit
+            sunt pariatur illo obcaecati soluta molestias iure facere dolorum
+            adipisci eum? Saepe, itaque.
+          </p>
         </div>
       </div>
     </div>
-  </nav>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    var myRadios = document.getElementsByName("tabs2");
+    var setCheck;
+    var x = 0;
+    for (x = 0; x < myRadios.length; x++) {
+      myRadios[x].onclick = function() {
+        if (setCheck != this) {
+          setCheck = this;
+        } else {
+          this.checked = false;
+          setCheck = null;
+        }
+      };
+    }
+  }
+};
 </script>
 
-<style></style>
+<style>
+/* Tab content - closed */
+.tab-content {
+  max-height: 0;
+  -webkit-transition: max-height 0.35s;
+  -o-transition: max-height 0.35s;
+  transition: max-height 0.35s;
+}
+/* :checked - resize to full height */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+/* Label formatting when open */
+.tab input:checked + label {
+  /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+  font-size: 1.25rem; /*.text-xl*/
+  padding: 1.25rem; /*.p-5*/
+  border-left-width: 2px; /*.border-l-2*/
+  border-color: #6574cd; /*.border-indigo*/
+  background-color: #f8fafc; /*.bg-gray-100 */
+  color: #6574cd; /*.text-indigo*/
+}
+/* Icon */
+.tab label::after {
+  float: right;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  text-align: center;
+  -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+}
+/* Icon formatting - closed */
+.tab input[type="checkbox"] + label::after {
+  content: "+";
+  font-weight: bold; /*.font-bold*/
+  border-width: 1px; /*.border*/
+  border-radius: 9999px; /*.rounded-full */
+  border-color: #b8c2cc; /*.border-grey*/
+}
+.tab input[type="radio"] + label::after {
+  content: "\25BE";
+  font-weight: bold; /*.font-bold*/
+  border-width: 1px; /*.border*/
+  border-radius: 9999px; /*.rounded-full */
+  border-color: #b8c2cc; /*.border-grey*/
+}
+/* Icon formatting - open */
+.tab input[type="checkbox"]:checked + label::after {
+  transform: rotate(315deg);
+  background-color: #6574cd; /*.bg-indigo*/
+  color: #f8fafc; /*.text-grey-lightest*/
+}
+.tab input[type="radio"]:checked + label::after {
+  transform: rotateX(180deg);
+  background-color: #6574cd; /*.bg-indigo*/
+  color: #f8fafc; /*.text-grey-lightest*/
+}
+</style>

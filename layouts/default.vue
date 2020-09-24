@@ -112,6 +112,7 @@
           <div class="p-2 bg-blue-800 text-white text-center text-md font-bold">
             Categories
           </div>
+          <Categories />
         </aside>
 
         <div class="p-4 flex flex-row items-center justify-between">
@@ -424,7 +425,11 @@
 </template>
 
 <script>
+import Categories from "~/components/Categories";
 export default {
+  components: {
+    Categories
+  },
   data() {
     return {
       open: false,
