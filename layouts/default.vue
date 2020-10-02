@@ -1,8 +1,8 @@
 <template>
   <main class="flex flex-col bg-gray-200">
-    <div class="nav bg-blue-800 max-w-full mb-3">
+    <div class="nav bg-blue-700 max-w-full mb-3">
       <div
-        class="flex flex-col px-4 md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 bg-blue-700 h-16 max-w-full"
+        class="flex flex-col px-4 md:items-center md:justify-between md:flex-row md:px-6 lg:px-8  h-16 max-w-full"
       >
         <div class="flex items-center text-white">
           <button
@@ -115,10 +115,10 @@
           <Categories />
         </aside>
 
-        <div class="p-4 flex flex-row items-center justify-between">
+        <div class="flex flex-row items-center justify-between">
           <a href="/" class="text-white text-xl font-bold">BINGO</a>
           <button
-            class="md:hidden rounded-lg focus:outline-none"
+            class="md:hidden rounded-lg focus:outline-none text-white"
             @click="open = !open"
           >
             <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -137,20 +137,35 @@
             </svg>
           </button>
         </div>
-        <div class="absolute ml-48 w-3/12">
+        <!--    search bar -->
+        <div
+          class=" flex justify-between items-center relative md:ml-12 md:w-auto w-auto mx-auto mt-2 mb-2 rounded-lg bg-white"
+        >
+          <div>
+            <select
+              name=""
+              id=""
+              class="rounded-l-lg select-css h-full w-auto py-2"
+            >
+              <option value="All">All departments</option>
+              <option value="">Electronics</option>
+              <option value="">Furniture</option>
+              <option value="">Vehicles</option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+          </div>
           <input
             title="Search Bar"
             aria-label="search bar"
             role="search"
-            class="pr-8 pl-4 py-2 rounded-full cursor-pointer focus:border-blue-600 focus:cursor-text w-full placeholder-transparent focus:placeholder-blue-500"
+            class="pr-8 pl-4 py-2 cursor-pointer focus:border-blue-600 focus:cursor-text w-full placeholder-transparent focus:placeholder-blue-500"
             type="text"
             placeholder="Search"
           />
-          <i
-            class="pointer-events-none absolute top-0 right-0 h-full flex items-center pr-3"
-          >
+          <div class="cursor-pointer h-full rounded-r-lg w-16  py-2 pr-3">
             <svg
-              class="fill-current w-4 h-4 mx-auto"
+              class="fill-current w-5 h-5 mx-auto text-gray-700"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -160,7 +175,7 @@
                 d="M21.172 24l-7.387-7.387c-1.388.874-3.024 1.387-4.785 1.387-4.971 0-9-4.029-9-9s4.029-9 9-9 9 4.029 9 9c0 1.761-.514 3.398-1.387 4.785l7.387 7.387-2.828 2.828zm-12.172-8c3.859 0 7-3.14 7-7s-3.141-7-7-7-7 3.14-7 7 3.141 7 7 7z"
               />
             </svg>
-          </i>
+          </div>
         </div>
 
         <div
@@ -478,5 +493,65 @@ export default {
 }
 .search {
   top: 20%;
+}
+/* class applies to select element itself, not a wrapper element */
+.select-css {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient.
+        for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+
+    */
+  background-image: url(""),
+    linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  background-repeat: no-repeat, repeat;
+  /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+  background-position: right 0.7em top 50%, 0 0;
+  /* icon size, then gradient */
+  background-size: 0.65em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+  display: none;
+}
+/* Hover style */
+.select-css:hover {
+  border-color: #888;
+}
+/* Focus style */
+.select-css:focus {
+  border-color: #aaa;
+  /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+
+/* Set options to normal weight */
+.select-css option {
+  font-weight: normal;
+}
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select-css,
+:root:lang(ar) .select-css,
+:root:lang(iw) .select-css {
+  background-position: left 0.7em top 50%, 0 0;
+}
+
+/* Disabled styles */
+.select-css:disabled,
+.select-css[aria-disabled="true"] {
+  color: graytext;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+    linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+}
+
+.select-css:disabled:hover,
+.select-css[aria-disabled="true"] {
+  border-color: #aaa;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="fixed bottom-0 right-0 flex flex-col items-end ml-6 w-full">
     <div
-      class="chat-modal mr-5 flex flex-col mb-5 shadow-lg sm:w-1/2 md:w-1/3 lg:w-1/4"
+      class="chat-modal mr-5 flex flex-col mb-5 shadow-lg sm:w-1/2 md:w-1/3 lg:w-1/4 border p-1 bg-white rounded-lg"
     >
       <!-- close button -->
       <div

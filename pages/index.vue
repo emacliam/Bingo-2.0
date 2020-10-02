@@ -10,7 +10,7 @@
     </template>
     <template v-else>
       <div class="container max-w-full flex justify-between max-h-full">
-        <div class="fixed bottom-0 right-0">
+        <div class="fixed bottom-0 right-0 z-50">
           <Chat />
         </div>
         <div class="max-h-full flex-1 max-w-4xl example">
