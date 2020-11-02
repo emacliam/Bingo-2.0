@@ -1,5 +1,7 @@
 # bingo
 
+https://bi-ngo.herokuapp.com/
+
 ## Build Setup
 
 ```bash
